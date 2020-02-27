@@ -78,11 +78,11 @@ class Book(Base):
 
     id = Column(Integer, primary_key=True)
     title = Column(Text, nullable=False, server_default=text("'Unknown'"))
-    sort = Column(Text, index=True)
+    sort = Column(Text)
     timestamp = Column(TIMESTAMP, server_default=text("CURRENT_TIMESTAMP"))
     pubdate = Column(TIMESTAMP, server_default=text("CURRENT_TIMESTAMP"))
     series_index = Column(Float, nullable=False, server_default=text("1.0"))
-    author_sort = Column(Text, index=True)
+    author_sort = Column(Text)
     isbn = Column(Text, server_default=text('""'))
     lccn = Column(Text, server_default=text('""'))
     path = Column(Text, nullable=False, server_default=text('""'))
@@ -140,8 +140,8 @@ class ConversionOption(Base):
     __table_args__ = (UniqueConstraint("format", "book"),)
 
     id = Column(Integer, primary_key=True)
-    format = Column(Text, nullable=False, index=True)
-    book = Column(Integer, ForeignKey("books.id"), index=True)
+    format = Column(Text, nullable=False)
+    book = Column(Integer, ForeignKey("books.id"))
     data = Column(LargeBinary, ForeignKey("data.id"), nullable=False)
 
 
@@ -164,8 +164,8 @@ class Datum(Base):
     __table_args__ = (UniqueConstraint("book", "format"),)
 
     id = Column(Integer, primary_key=True)
-    book = Column(Integer, ForeignKey("books.id"), nullable=False, index=True)
-    format = Column(Text, nullable=False, index=True)
+    book = Column(Integer, ForeignKey("books.id"), nullable=False)
+    format = Column(Text, nullable=False)
     uncompressed_size = Column(Integer, nullable=False)
     name = Column(Text, nullable=False)
 
