@@ -3,6 +3,7 @@
 from calibrestekje.api import init_session  # noqa
 from calibrestekje.bindings import (  # noqa
     Author,
+    Base,
     Book,
     BooksPluginDatum,
     Comment,
