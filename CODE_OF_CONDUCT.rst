@@ -1,30 +1,28 @@
 Introduction
 ------------
 
-The Calibrestekje community is committed to
-providing an inclusive, safe, and collaborative environment for all
-participants, regardless of their gender, gender expression, race, ethnicity,
-religion, sexual orientation, sexual characteristics, physical appearance,
-disability, or age. We encourage every participant to be themselves, and must
-respect the rights of others. The code of conduct is a set of guidelines that
-establishes shared values and ensures that behaviors that may harm participants
-are avoided.
+The Calibrestekje community is committed to providing an inclusive, safe, and
+collaborative environment for all participants, regardless of their gender,
+gender expression, race, ethnicity, religion, sexual orientation, sexual
+characteristics, physical appearance, disability, or age. We encourage every
+participant to be themselves, and must respect the rights of others. The code
+of conduct is a set of guidelines that establishes shared values and ensures
+that behaviors that may harm participants are avoided.
 
-The values of the Calibrestekje community are
-focused on developing both our individual and collective potential, supporting
-and empowering the most marginalized, mutual respect, and an anti-violence
-approach that favors support and collaboration among participants and the
-resolution of conflicts. A code of conduct helps us co-exist in a more positive
-way and provides individuals who are victims of negative behaviors with
-confidence that they will be supported by the organization and the
-Calibrestekje community, who respects and stands
+The values of the Calibrestekje community are focused on developing both our
+individual and collective potential, supporting and empowering the most
+marginalized, mutual respect, and an anti-violence approach that favors support
+and collaboration among participants and the resolution of conflicts. A code of
+conduct helps us co-exist in a more positive way and provides individuals who
+are victims of negative behaviors with confidence that they will be supported
+by the organization and the Calibrestekje community, who respects and stands
 behind the code of conduct.
 
-The Calibrestekje community works towards
-providing a welcoming environment where participants are treated with dignity
-and respect and are free to be themselves. We encourage all participants to
-approach the Calibrestekje network with an open and positive attitude, engaging
-constructively with others at all times.
+The Calibrestekje community works towards providing a welcoming environment
+where participants are treated with dignity and respect and are free to be
+themselves. We encourage all participants to approach the Calibrestekje network
+with an open and positive attitude, engaging constructively with others at all
+times.
 
 Respect for Diversity & Inclusion
 ---------------------------------
@@ -94,10 +92,9 @@ Enforcement
 Overseeing the code of conduct
 ==============================
 
-The Calibrestekje community, composed of
-volunteers, oversees the code of conduct, including addressing all incident
-reports. Breaking the code of conduct may result in immediate expulsion from
-the Calibrestekje network.
+The Calibrestekje community, composed of volunteers, oversees the code of
+conduct, including addressing all incident reports. Breaking the code of
+conduct may result in immediate expulsion from the Calibrestekje network.
 
 How to Report an Incident
 =========================
