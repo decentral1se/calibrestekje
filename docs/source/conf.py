@@ -5,4 +5,4 @@ html_theme = 'sphinx_rtd_theme'
 master_doc = 'index'
 project = 'calibrestekje'
 templates_path = ['_templates']
-extensions = ['sphinx.ext.autodoc', 'sphinx_autodoc_typehints']
+extensions = ['sphinx.ext.autodoc']
