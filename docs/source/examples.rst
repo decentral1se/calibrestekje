@@ -18,9 +18,9 @@ for you.
 Working with the Calibre database
 ---------------------------------
 
-Calibrestkje works with the Calibre metadata database. This means, you need to
-install `Calibre`_ first on your system. On my Debian operating system , that
-means I would run:
+Calibrestkje works with an existing Calibre database. This means, you need to
+install `Calibre`_ first on your system. On a Debian operating system , that
+means you would run:
 
 .. _Calibre: https://calibre-ebook.com
 
@@ -28,10 +28,11 @@ means I would run:
 
    $ sudo apt install -y calibre
 
-And the first time I run Calibre, I would find that a metadata database has
-been created in the ``/home/myuser/calibre/`` folder with the name
-``metadata.db``. If you've been using Calibre for some time already, then
-you'll probably already have this folder and database.
+The first time that Calibre is run, the database is created in the
+``/home/myusername/calibre/`` folder with the name ``metadata.db``.  If you've
+been using Calibre for some time already, then you'll probably already have
+this folder and database. All your book catalogue information is stored in this
+file.
 
 Sometimes it is useful to start from an empty metadata database and this can be
 achieved by creating one with the ``calibredb`` command on the command-line. An
@@ -44,11 +45,8 @@ example of this would be:
 
 Unfortunately, there is no "create new database command" (AFAIK) and therefore
 it is required to run this magical incantation that is hard to remember.
-Afterwards, you'll have a new ``mytestcalibredb/metadata.db`` file which you
-can start to work with.
-
-Please see the :ref:`limitations` documentation for understanding what
-Calibrestekje can't do right now.
+Afterwards, you'll have a new ``mytestcalibredb/metadata.db`` empty database
+which you can start to work with.
 
 Initialising a new session
 --------------------------
@@ -68,6 +66,27 @@ All books without a publisher
     (session.query(Book)
            .filter(Book.publishers == None))
 
+List of all tags that contain some pattern
+------------------------------------------
+
+.. code-block:: python
+
+    (session.query(Tag)
+           .filter(Tag.name.contains("humanities")))
+
+Adding a new tag to a book
+--------------------------
+
+.. code-block:: python
+
+    tag = Tag(name='getting radical')
+
+    book = session.query(Book).first()
+    book.tags.append(tag)
+
+    session.add(book)
+    session.commit()
+
 All books with multiple authors
 -------------------------------
 
@@ -79,11 +98,3 @@ All books with multiple authors
            .join(Book.authors)
            .group_by(Book)
            .having(func.count(Author.id) > 1))
-
-List of all tags that contain some pattern
-------------------------------------------
-
-.. code-block:: python
-
-    (session.query(Tag)
-           .filter(Tag.name.contains("humanities")))

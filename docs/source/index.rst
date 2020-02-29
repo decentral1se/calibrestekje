@@ -8,7 +8,6 @@
    install
    examples
    forking
-   limitations
    upgrade
    contribute
    changelog
