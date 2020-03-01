@@ -13,6 +13,8 @@ The `querying`_ documentation is particularly useful. Please also see the
 use. The following examples are laid out in a "cookbook" style. Hopefully there
 is something useful in here for you.
 
+The bindings are generated from Calibre version ``2.75.1``.
+
 .. _SQLAlchemy: https://docs.sqlalchemy.org/en/13/
 .. _querying: https://docs.sqlalchemy.org/en/13/orm/tutorial.html#querying
 
