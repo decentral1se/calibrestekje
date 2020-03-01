@@ -16,7 +16,7 @@ you'll need to install the extension.
 
 And then go ahead and create a ``flaskconfig.cfg`` file.
 
-.. code-block:: config
+.. code-block:: cfg
 
     CALIBRESTEKJE_SQLITE_URL = "sqlite:///mymetadata.db"
 
