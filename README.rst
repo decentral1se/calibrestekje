@@ -70,3 +70,10 @@ Documentation
 *************
 
 * https://calibrestekje.readthedocs.io/
+
+Mirroring
+*********
+
+* `hack.decentral1.se/decentral1se/calibrestekje`_
+
+.. _hack.decentral1.se/decentral1se/calibrestekje: https://hack.decentral1.se/decentral1se/calibrestekje/
