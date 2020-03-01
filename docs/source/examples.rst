@@ -8,9 +8,10 @@ In order to work with Calibrestkje, you'll need to learn more about
 `SQLAlchemy`_. SQLAlchemy is a Python "Object Relational Mapper", meaning that
 it can help you write Python programs that interact with a database without
 having to write raw database queries (that is often harder to do correctly).
-The `querying`_ documentation is particularly useful. The following examples
-are laid out in a "cookbook" style. Hopefully there is something useful in here
-for you.
+The `querying`_ documentation is particularly useful. Please also see the
+:ref:`modules_api` documentation for which tables are available for import and
+use. The following examples are laid out in a "cookbook" style. Hopefully there
+is something useful in here for you.
 
 .. _SQLAlchemy: https://docs.sqlalchemy.org/en/13/
 .. _querying: https://docs.sqlalchemy.org/en/13/orm/tutorial.html#querying

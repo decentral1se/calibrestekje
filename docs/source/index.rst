@@ -7,6 +7,7 @@
 
    install
    examples
+   modules-api
    forking
    upgrade
    contribute
