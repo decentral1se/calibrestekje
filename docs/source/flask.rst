@@ -1,8 +1,8 @@
 .. _flasking:
 
-**************
-Use with Flask
-**************
+*******************
+Flask-Calibrestekje
+*******************
 
 A `flask`_ extension is available for prototyping new web interfaces with
 calibrestekje. In order to get started you'll need to install the extension.
