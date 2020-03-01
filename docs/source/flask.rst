@@ -4,9 +4,8 @@
 Use with Flask
 **************
 
-A `flask`_ extension is also provided so it's easy to get started with
-developing new web interfaces with calibrestekje. In order to get started
-you'll need to install the extension.
+A `flask`_ extension is available for prototyping new web interfaces with
+calibrestekje. In order to get started you'll need to install the extension.
 
 .. _flask: https://flask.palletsprojects.com
 
@@ -14,7 +13,7 @@ you'll need to install the extension.
 
     $ pip install flask-calibrestekje
 
-And then go ahead and create a ``app.cfg`` file.
+Then create an ``app.cfg`` file with the following contents.
 
 .. code-block:: cfg
 
