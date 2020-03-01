@@ -51,6 +51,13 @@ it is required to run this magical incantation that is hard to remember.
 Afterwards, you'll have a new ``mytestcalibredb/metadata.db`` empty database
 which you can start to work with.
 
+If you want to run Calibre only using this new library, you can do the
+following. Otherwise, Calibre will default to the standard database location.
+
+.. code-block:: bash
+
+   $ calibre --with-library mytestcalibredb
+
 Initialising a new session
 --------------------------
 
