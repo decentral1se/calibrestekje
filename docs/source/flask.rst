@@ -32,6 +32,7 @@ Create your Flask application in an ``app.py``.
 
     app = Flask(__name__)
     app.config.from_pyfile("app.cfg")
+
     db = CalibreStekje(app)
 
     @app.route("/")
