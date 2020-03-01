@@ -47,8 +47,6 @@ interface`_ and provide direct access to the Database table layer.
 Quick Example
 *************
 
-See documentation linked below for more.
-
 .. code-block:: python
 
     from calibrestekje import Book, Publisher, init_session
