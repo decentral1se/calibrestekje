@@ -1,3 +1,12 @@
+Calibrestekje 0.0.3 (2020-03-01)
+================================
+
+Improved Documentation
+----------------------
+
+- Add flask extension documentation. (#3)
+
+
 Calibrestekje 0.0.2 (2020-03-01)
 ================================
 
