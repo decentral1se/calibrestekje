@@ -14,13 +14,13 @@ you'll need to install the extension.
 
     $ pip install flask-calibrestekje
 
-And then go ahead and create a ``flaskconfig.cfg`` file.
+And then go ahead and create a ``app.cfg`` file.
 
 .. code-block:: cfg
 
     CALIBRESTEKJE_SQLITE_URL = "sqlite:///mymetadata.db"
 
-And then finally, create your Flask application.
+Create your Flask application in an ``app.py``.
 
 .. code-block:: python
 
@@ -30,9 +30,16 @@ And then finally, create your Flask application.
     from flask_calibrestekje import CalibreStekje
 
     app = Flask(__name__)
-    app.config.from_pyfile("config.cfg")
+    app.config.from_pyfile("app.cfg")
     db = CalibreStekje(app)
 
     @app.route("/")
     def home():
         return jsonify({"book-count": db.session.query(Book).count()})
+
+And finally, run your application.
+
+.. code-block:: bash
+
+    $ export FLASK_APP=app.py
+    $ flask run
