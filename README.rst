@@ -31,16 +31,24 @@ Library prototyping based on Calibre
 
 Calibrestekje is a Python library which provides a way to work with the
 `Calibre`_ database outside the context of the Calibre desktop and web
-interfaces. Generated `SQLAlchemy`_ database bindings (see `sqlacodegen`_ for
+interfaces.
+
+Generated `SQLAlchemy`_ database bindings (see `sqlacodegen`_ for
 more) are provided which allow for read/write access to an existing Calibre
 database. These bindings are more fine grained than Calibres `database
 interface`_ and provide direct access to the Database table layer.
+
+A `flask`_ extension is also provided for getting started with web prototyping.
+Please see `flask-calibrestekje`_ and `the flask usage documentation`_ for
+more.
 
 .. _Calibre: https://calibre-ebook.com/
 .. _SQLALchemy: https://docs.sqlalchemy.org/
 .. _sqlacodegen: https://github.com/agronholm/sqlacodegen
 .. _database interface: https://manual.calibre-ebook.com/db_api.html
-.. _Relearn!: http://relearn.be/2019/
+.. _flask: https://flask.palletsprojects.com/
+.. _flask-calibrestekje: https://github.com/decentral1se/flask-calibrestekje
+.. _the flask usage documentation: https://calibrestekje.readthedocs.io/en/latest/flask.html
 
 .. _example:
 
