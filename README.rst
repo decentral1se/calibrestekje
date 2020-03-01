@@ -33,10 +33,11 @@ Calibrestekje is a Python library which provides a way to work with the
 `Calibre`_ database outside the context of the Calibre desktop and web
 interfaces.
 
-Generated `SQLAlchemy`_ database bindings (see `sqlacodegen`_ for
-more) are provided which allow for read/write access to an existing Calibre
+Generated `SQLAlchemy`_ database bindings (see `sqlacodegen`_ for more)
+are provided which allow for read/write access to an existing Calibre
 database. These bindings are more fine grained than Calibres `database
-interface`_ and provide direct access to the Database table layer.
+interface`_ and provide direct access to the Database table layer. The
+bindings are generated from Calibre version ``2.75.1``.
 
 A `flask`_ extension is also provided for getting started with web prototyping.
 Please see `flask-calibrestekje`_ and `the flask usage documentation`_ for
