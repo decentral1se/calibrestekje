@@ -74,7 +74,7 @@ All books without a publisher
 .. code-block:: python
 
     (session.query(Book)
-           .filter(Book.publishers == None))
+            .filter(Book.publishers == None))
 
 List of all tags that contain some pattern
 ------------------------------------------
@@ -82,7 +82,7 @@ List of all tags that contain some pattern
 .. code-block:: python
 
     (session.query(Tag)
-           .filter(Tag.name.contains("humanities")))
+            .filter(Tag.name.contains("humanities")))
 
 Adding a new tag to a book
 --------------------------
@@ -105,6 +105,6 @@ All books with multiple authors
     from sqlalchemy.sql.expression import func
 
     (session.query(Book)
-           .join(Book.authors)
-           .group_by(Book)
-           .having(func.count(Author.id) > 1))
+            .join(Book.authors)
+            .group_by(Book)
+            .having(func.count(Author.id) > 1))
