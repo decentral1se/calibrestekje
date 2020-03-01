@@ -12,8 +12,8 @@ calibrestekje
    :target: https://badge.fury.io/py/calibrestekje
    :alt: PyPI package
 
-.. image:: https://travis-ci.com/Calibrestekje/calibrestekje.svg?branch=master
-   :target: https://travis-ci.com/Calibrestekje/calibrestekje
+.. image:: https://travis-ci.com/decentral1se/calibrestekje.svg?branch=master
+   :target: https://travis-ci.com/decentral1se/calibrestekje
    :alt: Travis CI result
 
 .. image:: https://readthedocs.org/projects/calibrestekje/badge/?version=latest
